@@ -117,7 +117,7 @@ function SuccessPageContent() {
               </h1>
 
               <p className="text-base text-slate-600">
-                Thank you for choosing MagicScale! We have received your payment and FSSAI License application details successfully.
+                Thank you for choosing Foodsnap! We have received your payment and FSSAI License application details successfully.
               </p>
 
               <div className="hidden md:block border-t border-slate-200/80 pt-6">

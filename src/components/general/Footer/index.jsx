@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FOOTER_LINKS, FOOTER_ANIMATION } from "./helper/constants";
 
 const WEBSITE_NAME =
-  process.env.NEXT_PUBLIC_BUSINESS_NAME || "MagicScale";
+  process.env.NEXT_PUBLIC_BUSINESS_NAME || "Foodsnap";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

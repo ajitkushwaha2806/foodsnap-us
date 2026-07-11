@@ -2,94 +2,90 @@ import Template from "@/components/global/template";
 import { Headset, Rows, ShieldCheck, Trash2, Zap } from "lucide-react";
 
 export const metadata = {
-  title: "Terms & Conditions | MagicScale",
+  title: "Terms & Conditions | Foodsnap",
   description:
-    "Review the Terms & Conditions governing your use of MagicScale's FSSAI registration and related services.",
+    "Review the Terms & Conditions governing your use of Foodsnap's premium food image library.",
   keywords: [
-    "MagicScale",
+    "Foodsnap",
     "Terms and Conditions",
-    "FSSAI Licensing Service",
+    "Food Image Library",
     "Service Terms",
-    "consultation",
-    "Food Business Compliance",
+    "Delivery App Photos"
   ],
   authors: [
-    { name: "MagicScale", url: "https://magicscale.in" },
+    { name: "Foodsnap", url: "https://Foodsnap.in" },
   ],
   openGraph: {
-    title: "Terms & Conditions | MagicScale",
+    title: "Terms & Conditions | Foodsnap",
     description:
-      "Review the Terms & Conditions governing your use of MagicScale's FSSAI registration and related services.",
-    url: "https://magicscale.in/terms-and-conditions",
-    siteName: "MagicScale",
+      "Review the Terms & Conditions governing your use of Foodsnap's premium food image library.",
+    url: "https://Foodsnap.in/terms-and-conditions",
+    siteName: "Foodsnap",
     type: "website",
   },
 };
 
 const cardData = [
   {
-    title: "Client Responsibilities & KYC Accuracy",
-    description: "Clients must provide accurate and lawful business documents.",
+    title: "Usage Rights & Licensing",
+    description: "Images are licensed for delivery platforms, not for resale.",
     icon: <Rows className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        By engaging MagicScale for FSSAI registration services, 
-        you agree that all documents (KYC, business proofs, rent agreements, etc.) 
-        provided by you are 100% authentic and legally valid. <br /> <br />
-        You are solely responsible for any legal repercussions, penalties, or 
-        application rejections that arise from submitting forged, expired, or 
-        incorrect documents to the government authorities through our platform.
+        By purchasing access to the Foodsnap Pro Library, you are granted a non-exclusive, 
+        royalty-free license to use the provided food images strictly for your restaurant menus 
+        on delivery platforms (such as DoorDash, Uber Eats, Grubhub) and your own website. <br /> <br />
+        You may not resell, redistribute, or repackage these images as stock photography 
+        or standalone assets under any circumstances.
       </>
     ),
   },
   {
-    title: "Independent Consultancy Status",
+    title: "Independent Image Library",
     description:
-      "We are a private agency assisting with government compliance.",
+      "We are an independent provider of high-quality food photography.",
     icon: <Zap className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        MagicScale operates as an independent private consultancy. 
-        We are not a government body, and we do not issue the FSSAI license 
-        directly. <br /> <br />
-        Our professional fees cover the cost of consultation, document preparation, 
-        and application processing. Government fees (if applicable) are paid directly 
-        to the FSSAI department on your behalf as part of the service structure.
+        Foodsnap operates as an independent private image library. We are not officially 
+        affiliated with, endorsed by, or directly partnered with DoorDash, Uber Eats, 
+        Grubhub, or any other third-party delivery application. <br /> <br />
+        While our images are formatted and created to meet the general approval standards 
+        of these platforms, we do not control their internal approval processes.
       </>
     ),
   },
   {
-    title: "No Guarantee of Final Approval",
-    description: "Final licensing decisions rest with the FSSAI authorities.",
+    title: "Non-Refundable Digital Goods",
+    description: "All sales of digital image bundles are final.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        While our experts ensure your application is submitted correctly, 
-        we do not and cannot guarantee the final approval, issuance, or processing 
-        timeline of your FSSAI license. <br /> <br />
-        The respective government department may request additional documents, 
-        conduct physical premises inspections, or reject applications based on their 
-        own criteria. MagicScale holds no liability for government rejections.
+        Because the Foodsnap Pro Library consists of instantly downloadable digital 
+        assets, all sales are considered final and non-refundable once access has been 
+        granted or files have been downloaded. <br /> <br />
+        We do not offer refunds if a third-party platform updates their image policies 
+        or rejects an image, though we constantly strive to provide content that meets 
+        current industry standards.
       </>
     ),
   },
   {
-    title: "Termination & Fraud Policy",
-    description: "Services may be revoked for fraudulent activities.",
+    title: "Termination & Misuse",
+    description: "Access may be revoked for violating licensing terms.",
     icon: <Trash2 className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        We reserve the right to immediately suspend or terminate our services 
-        without refund if a client:{" "}
+        We reserve the right to immediately suspend or terminate your access to the 
+        library without refund if you:
         <ul className="list-disc pl-5 mt-2">
           {" "}
-          <li>Submits deliberately falsified or forged KYC documents.</li>{" "}
-          <li>Engages in abusive or threatening behavior toward our staff.</li>{" "}
-          <li>Attempts to use our services for unlawful food business activities.</li>{" "}
-          <li>Violates these Terms & Conditions.</li>{" "}
+          <li>Attempt to resell or illegally distribute our copyrighted images.</li>{" "}
+          <li>Use the images for illegal, defamatory, or fraudulent purposes.</li>{" "}
+          <li>Violate these Terms & Conditions in any manner.</li>{" "}
         </ul>{" "}
         <br />
-        Service termination does not create eligibility for a refund.
+        Service termination due to misuse does not create eligibility for a refund.
       </>
     ),
   },
@@ -97,29 +93,27 @@ const cardData = [
 
 const contactData = {
   title: "Questions About These Terms?",
-  description: "We're happy to clarify any aspect of our Terms & Conditions.",
+  description: "We're happy to clarify any aspect of our licensing or terms.",
   content: (
     <div>
       {" "}
       <p className="mb-4">
-        By accessing or purchasing any MagicScale FSSAI registration 
-        service or consultation, you legally agree to these Terms & Conditions.{" "}
+        By accessing or purchasing the Foodsnap Pro Library, you legally agree to 
+        these Terms & Conditions and licensing agreements.{" "}
       </p>
       <p className="mb-2">
-        Support & Legal Inquiries:{" "}
+        Support Inquiries:{" "}
         <a
-          href="mailto:support@magicscale.in"
+          href="mailto:support@Foodsnap.in"
           className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-2"
         >
-          support@magicscale.in
+          support@Foodsnap.in
         </a>
       </p>
       <p>
-        MagicScale
+        Foodsnap
         <br />
-        New Delhi, India
-        <br />
-        FSSAI Registration & Compliance Services
+        Premium Food Image Library
       </p>
     </div>
   ),
@@ -132,12 +126,12 @@ const page = () => {
       heading={
         <div>
           Terms & Conditions <br className="hidden sm:block" />
-          For Clients{" "}
+          For Customers{" "}
         </div>
       }
-      description="Please review the terms governing your use of MagicScale's FSSAI registration services and compliance consultations."
-      ctaDescription="By engaging our services, you agree to these Terms & Conditions, ensuring a transparent and legally compliant service experience."
-      ctaLink="mailto:support@magicscale.in"
+      description="Please review the terms governing your use of the Foodsnap image library and digital asset licenses."
+      ctaDescription="By downloading our images, you agree to these Terms & Conditions, ensuring proper use of our licensed assets."
+      ctaLink="mailto:support@Foodsnap.in"
       ctaButton={
         <span className="flex items-center gap-2">
           {" "}

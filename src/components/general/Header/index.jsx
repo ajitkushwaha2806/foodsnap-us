@@ -25,7 +25,7 @@ export default function Header() {
             className="text-2xl cursor-pointer font-extrabold tracking-tighter flex items-center animate-in fade-in slide-in-from-left-2 duration-500 delay-100 fill-mode-both"
           >
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 transition-all duration-300">
-              Magicscale
+              Foodsnap
             </span>
           </div>
         </Link>

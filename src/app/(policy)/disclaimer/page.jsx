@@ -3,97 +3,92 @@ import Template from "@/components/global/template";
 import { Headset, ShieldCheck, AlertTriangle } from "lucide-react";
 
 export const metadata = {
-  title: "Disclaimer | MagicScale",
+  title: "Disclaimer | Foodsnap",
   description:
-    "Understand the scope, limitations, and responsibilities associated with the FSSAI registration and licensing services provided by MagicScale.",
+    "Understand the scope, limitations, and responsibilities associated with using the Foodsnap Pro image library.",
   keywords: [
-    "MagicScale Disclaimer",
-    "FSSAI Licensing Service",
-    "Food Business Registration",
-    "FSSAI Compliance Services",
-    "Business Licensing Disclaimer",
+    "Foodsnap Disclaimer",
+    "Food Image Library",
+    "Delivery App Photos",
+    "Restaurant Marketing",
+    "Image Licensing Disclaimer",
   ],
-  authors: [{ name: "MagicScale", url: "https://magicscale.in" }],
+  authors: [{ name: "Foodsnap", url: "https://Foodsnap.in" }],
   openGraph: {
-    title: "Disclaimer | MagicScale",
+    title: "Disclaimer | Foodsnap",
     description:
-      "Important information regarding the FSSAI registration and compliance services provided by MagicScale.",
-    url: "https://magicscale.in/disclaimer",
-    siteName: "MagicScale",
+      "Important information regarding the digital assets and library services provided by Foodsnap.",
+    url: "https://Foodsnap.in/disclaimer",
+    siteName: "Foodsnap",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Disclaimer | MagicScale",
+    title: "Disclaimer | Foodsnap",
     description:
-      "Important information regarding the FSSAI registration and compliance services provided by MagicScale.",
+      "Important information regarding the digital assets and library services provided by Foodsnap.",
   },
 };
 
 const cardData = [
   {
-    title: "Independent Consultancy",
+    title: "Independent Image Provider",
     description:
-      "We are a private consultancy and not a government body.",
+      "We are a private media company, not affiliated with delivery platforms.",
     icon: <AlertTriangle className="w-6 h-6 text-yellow-500" />,
     content: (
       <>
-        MagicScale operates as an independent, private consultancy firm. We provide 
-        assistance and support services to food businesses for obtaining their 
-        FSSAI registration and compliance. <br /> <br />
-        We are <strong>not</strong> a government agency, nor are we affiliated 
-        with the Food Safety and Standards Authority of India (FSSAI) or any other 
-        government department. We charge a professional service fee for our 
-        consulting, application processing, and support services.
+        Foodsnap operates as an independent provider of high-quality food photography. 
+        We provide digital assets to help restaurants improve their visual presentation. <br /> <br />
+        We are <strong>not</strong> officially affiliated with, endorsed by, or partnered 
+        with DoorDash, Uber Eats, Grubhub, Zomato, Swiggy, or any other third-party 
+        food delivery application.
       </>
     ),
   },
   {
-    title: "No Guarantee of Approval",
+    title: "No Guarantee of Platform Acceptance",
     description:
-      "Final approval of licenses rests solely with the government authorities.",
+      "Final approval of menu images rests solely with the delivery platforms.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        While we strive to ensure every application is filled out accurately and 
-        submitted promptly, MagicScale does not guarantee the approval, issuance, 
-        or timeline of any FSSAI license or registration. <br /> <br />
-        The final decision, processing time, and approval of the license rest 
-        strictly with the respective government authorities. Rejections due to 
-        incomplete documents provided by the applicant are not our responsibility.
+        While our images are specifically shot and formatted to meet the general 
+        resolution and quality standards of major delivery apps, Foodsnap does not 
+        guarantee that any specific platform will approve your menu uploads. <br /> <br />
+        The final decision to accept or reject an image rests strictly with the respective 
+        delivery platform's internal review team and their specific, changing policies.
       </>
     ),
   },
   {
-    title: "Accuracy of Information",
+    title: "Representation & Usage Responsibility",
     description:
-      "Applicants are responsible for the authenticity of provided documents.",
+      "You are responsible for ensuring the images represent your food accurately.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        MagicScale processes applications based solely on the documents and 
-        information provided by the applicant. We do not verify the legal 
-        authenticity of these documents. <br /> <br />
-        You are solely responsible for ensuring that all business details, 
-        identities, and addresses provided to us are accurate, truthful, and 
-        legally valid. MagicScale holds no liability for penalties arising 
-        from falsified information.
+        Foodsnap provides premium generic food photography. We do not verify if the 
+        images identically match the specific ingredients, portion sizes, or presentation 
+        of the actual food prepared in your restaurant. <br /> <br />
+        You are solely responsible for ensuring that using our images does not mislead 
+        your customers. Foodsnap holds no liability for customer complaints or platform 
+        penalties arising from misrepresentation.
       </>
     ),
   },
   {
-    title: "Your Business Responsibility",
+    title: "No Guarantee of Increased Sales",
     description:
-      "You remain fully responsible for your food business operations and compliance.",
+      "We provide visual assets, not guaranteed marketing results.",
     icon: <AlertTriangle className="w-6 h-6 text-yellow-500" />,
     content: (
       <>
-        Acquiring an FSSAI registration through our service does not exempt your 
-        business from adhering to ongoing food safety standards, hygiene practices, 
-        or local municipal laws. <br /> <br />
-        MagicScale shall not be liable for any legal actions, business closures, 
-        or damages resulting from your failure to maintain compliance with FSSAI 
-        regulations during your business operations.
+        While high-quality imagery is statistically shown to improve conversion rates 
+        on delivery apps, Foodsnap does not guarantee any specific financial outcome, 
+        sales increase, or return on investment from using our library. <br /> <br />
+        Your restaurant's success depends on many factors including food quality, pricing, 
+        and customer service, which are entirely outside of our control.
       </>
     ),
   },
@@ -102,27 +97,25 @@ const cardData = [
 const contactData = {
   title: "Questions About This Disclaimer?",
   description:
-    "We're happy to clarify any concerns regarding our FSSAI registration services.",
+    "We're happy to clarify any concerns regarding our image library services.",
   content: (
     <div>
       {" "}
       <p className="mb-4">
-        If you have questions regarding this disclaimer or the scope of 
-        services provided through MagicScale, please contact us at{" "}
+        If you have questions regarding this disclaimer or the scope of
+        services provided through Foodsnap, please contact us at{" "}
         <a
-          href="mailto:support@magicscale.in"
+          href="mailto:support@Foodsnap.in"
           className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-2"
         >
-          support@magicscale.in
+          support@Foodsnap.in
         </a>
         .{" "}
       </p>
       <p>
-        MagicScale
+        Foodsnap
         <br />
-        New Delhi, India
-        <br />
-        FSSAI Licensing & Compliance Support
+        Premium Food Image Library
       </p>
     </div>
   ),
@@ -138,9 +131,9 @@ const page = () => {
           Information{" "}
         </div>
       }
-      description="Please review the limitations, responsibilities, and terms associated with using the FSSAI registration and licensing services provided by MagicScale."
-      ctaDescription="Our mission is to help food entrepreneurs secure their business compliance smoothly. Please note that we are a private consulting firm, and ultimate licensing authority rests with the government."
-      ctaLink="mailto:support@magicscale.in"
+      description="Please review the limitations, responsibilities, and terms associated with using the Foodsnap Pro image library."
+      ctaDescription="Our mission is to help food entrepreneurs elevate their digital menus with stunning photography. Please note that we are an independent provider and do not guarantee third-party platform approval."
+      ctaLink="mailto:support@Foodsnap.in"
       ctaButton={
         <span className="flex items-center gap-2">
           {" "}

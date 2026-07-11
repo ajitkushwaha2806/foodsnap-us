@@ -15,57 +15,31 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://fssai.magicscale.in"),
+  metadataBase: new URL("https://foodsnap.in"),
 
   title: {
-    default: "FSSAI License Online | MagicScale",
-    template: "%s | MagicScale",
+    default: "Foodsnap Pro Library | Premium Food Images",
+    template: "%s | Foodsnap",
   },
 
   description:
-    "Apply for FSSAI License online starting at ₹999. Get Basic, State and Central Food License with expert support.",
+    "Get instant access to our premium food image library for just $10. Perfect for DoorDash, Uber Eats, and more.",
 
   keywords: [
-    "FSSAI License",
-    "Food License",
-    "FSSAI Registration",
-    "Food Registration",
-    "Apply FSSAI License",
-    "FSSAI Online",
-    "Basic FSSAI License",
-    "State FSSAI License",
-    "Central FSSAI License",
+    "Food Images",
+    "Delivery App Photos",
+    "Foodsnap Pro",
+    "Restaurant Marketing",
+    "Food Photography",
+    "Cloud Kitchen Photos",
   ],
 
   alternates: {
-    canonical: "https://fssai.magicscale.in",
+    canonical: "https://foodsnap.in",
   },
 
   icons: {
     icon: "/og-image.png",
-  },
-
-  openGraph: {
-    title: "FSSAI License Online | MagicScale",
-    description: "Apply for FSSAI License online starting at ₹999. Get Basic, State and Central Food License with expert support.",
-    url: "https://fssai.magicscale.in",
-    siteName: "MagicScale",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "MagicScale FSSAI License",
-      },
-    ],
-    locale: "en_IN",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "FSSAI License Online | MagicScale",
-    description: "Apply for FSSAI License online starting at ₹999.",
-    images: ["/og-image.png"],
   },
 };
 
@@ -73,14 +47,14 @@ export default function RootLayout({ children }) {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "MagicScale",
-    url: "https://fssai.magicscale.in",
-    logo: "https://fssai.magicscale.in/og-image.png",
+    name: "Foodsnap",
+    url: "https://foodsnap.in",
+    logo: "https://foodsnap.in/og-image.png",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+91-8826073117",
       contactType: "customer service",
-      email: "support@magicscale.in",
+      email: "support@foodsnap.in",
       availableLanguage: ["English", "Hindi"],
     },
   };
@@ -88,8 +62,8 @@ export default function RootLayout({ children }) {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "MagicScale FSSAI Licensing",
-    url: "https://fssai.magicscale.in",
+    name: "Foodsnap Pro Library",
+    url: "https://foodsnap.in",
   };
 
   return (

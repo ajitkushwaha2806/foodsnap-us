@@ -4,33 +4,33 @@ import Title from "../Title";
 import { motion } from "framer-motion";
 import SectionWrapper from "../SectionWrapper";
 import { Highlighter } from "@/components/ui/highlighter";
-import { FileUp, PhoneCall, KeyRound, MailCheck } from "lucide-react";
+import { UserPlus, Search, Download, UploadCloud } from "lucide-react";
 
 export default function HowItWorks() {
   const steps = [
     {
       num: "01",
-      title: "Apply & Pay",
-      description: "Submit details & documents.",
-      icon: FileUp,
+      title: "Register",
+      description: "Sign up and get instant access.",
+      icon: UserPlus,
     },
     {
       num: "02",
-      title: "Expert Connect",
-      description: "Our executive calls within 4hrs (10am-7pm).",
-      icon: PhoneCall,
+      title: "Search",
+      description: "Find the exact food photos you need.",
+      icon: Search,
     },
     {
       num: "03",
-      title: "Verification",
-      description: "Provide OTP for fast Govt. portal submission.",
-      icon: KeyRound,
+      title: "Download",
+      description: "Get high-resolution images instantly.",
+      icon: Download,
     },
     {
       num: "04",
-      title: "License Issued",
-      description: "Digital FSSAI certificate delivered to your email.",
-      icon: MailCheck,
+      title: "Upload",
+      description: "Use them on your delivery platforms.",
+      icon: UploadCloud,
     }
   ];
 
@@ -49,7 +49,7 @@ export default function HowItWorks() {
                 </Highlighter>
               </>
             }
-            description="How we get your FSSAI license issued smoothly in 4 easy steps."
+            description="Get premium food photos for your delivery platforms in 4 easy steps."
           />
         </div>
       }

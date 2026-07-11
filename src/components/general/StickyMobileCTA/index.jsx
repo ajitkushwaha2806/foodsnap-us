@@ -16,7 +16,7 @@ export default function StickyMobileCTA() {
             <div className="flex items-center justify-between gap-2">
               <div className="flex flex-col shrink-0">
                 <span className="text-2xl min-[375px]:text-3xl font-black tracking-tight text-green-600">
-                  ₹{plan?.price || 999}
+                  ${plan?.price || 10}
                 </span>
 
                 <div className="mt-0.5 flex items-center gap-1 text-[10px] min-[375px]:text-xs text-zinc-500 font-medium">

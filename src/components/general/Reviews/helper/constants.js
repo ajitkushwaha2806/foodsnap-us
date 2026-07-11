@@ -1,23 +1,23 @@
 export const TESTIMONIALS = [
     {
-        name: "Rohit Sharma",
-        title: "Owner, Sharma Sweets",
+        name: "Sarah Jenkins",
+        title: "Owner, Burger Bistro NY",
         quote:
-            "FSSAI license milna itna aasan hoga maine socha hi nahi tha. Bas documents diye aur inhone sab khud handle kar liya. Highly recommended!",
+            "Foodsnap completely transformed our DoorDash profile. Since uploading their premium burger shots, our daily orders have doubled. The images look incredibly appetizing!",
         img: "/assets/reviews/client_rohit.png",
     },
     {
-        name: "Anjali Mehra",
-        title: "Founder, Cozy Spot Cafe",
+        name: "David Chen",
+        title: "Founder, Dragon Wok Express",
         quote:
-            "Cloud kitchen start karne ke liye license chahiye tha, inki team ne bahut properly guide kiya aur time pe certificate deliver kiya.",
+            "I didn't have the budget for a professional food photoshoot. Foodsnap's library had exactly what I needed for Uber Eats. High quality, approved instantly, and saved me hundreds of dollars.",
         img: "/assets/reviews/client_anjali.png",
     },
     {
-        name: "Karan Desai",
-        title: "Owner, Spicy Kulcha Factory",
+        name: "Marcus Johnson",
+        title: "Owner, Slice Heaven Pizzeria",
         quote:
-            "Pehle govt portal pe try kiya par reject ho gaya. Inke platform se 2 din mein FSSAI registration complete ho gaya. Excellent service!",
+            "We used to get complaints about our menu photos on Grubhub. Switched to Foodsnap's library and our conversion rate went through the roof. The process is so easy—just search, download, and upload.",
         img: "/assets/reviews/client_karan.png",
     },
 ]

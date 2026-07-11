@@ -9,28 +9,28 @@ import { Highlighter } from "@/components/ui/highlighter";
 export default function WhyChooseUs() {
   const comparisons = [
     {
-      pain: "Confusing Govt Process",
-      solution: "Fast & Hassle-Free Process",
+      pain: "Expensive Professional Photoshoots",
+      solution: "Affordable Image Library Access",
     },
     {
-      pain: "Document Confusion & Rejections",
-      solution: "Error-Free Documentation Verification",
+      pain: "Images Rejected by Delivery Apps",
+      solution: "Pre-Approved Formats & Specs",
     },
     {
-      pain: "Long Waiting Times & Revisions",
-      solution: "Quick Turnaround & Filing",
+      pain: "Waiting Weeks for Edited Photos",
+      solution: "Instant Search & Download",
     },
     {
-      pain: "No Help or Guidance Available",
-      solution: "Dedicated Expert Support",
+      pain: "Using Low Quality Google Images",
+      solution: "High-Res Professional Shots",
     },
     {
-      pain: "Hidden Local Agent Charges",
-      solution: "100% Transparent Pricing",
+      pain: "Paying $50+ per single photo",
+      solution: "100 Photos for just $25",
     },
     {
-      pain: "Multiple Unclear Portal Logins",
-      solution: "Live WhatsApp Updates",
+      pain: "Worrying about Styling & Props",
+      solution: "Ready-to-use Appetizing Photos",
     },
   ];
 
@@ -44,12 +44,12 @@ export default function WhyChooseUs() {
                 The Old Way vs <br />{" "}
                 <Highlighter action="highlight" color={"#22c55e"}>
                   <span className="relative z-10 px-2 text-white">
-                    MagicScale Way
+                    Foodsnap Way
                   </span>
                 </Highlighter>
               </>
             }
-            description="Stop wasting time on application rejections. See how we make FSSAI licensing effortless."
+            description="Stop wasting money on expensive photoshoots. See how Foodsnap makes your delivery profiles stand out."
           />
         </div>
       }
@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
             </div>
             <div className="w-px bg-zinc-200 mx-2 sm:mx-6 shrink-0" />
             <div className="flex-1">
-              <h3 className="text-[11px] sm:text-[13px] font-black text-[#22c55e] uppercase tracking-widest">With MagicScale</h3>
+              <h3 className="text-[11px] sm:text-[13px] font-black text-[#22c55e] uppercase tracking-widest">With Foodsnap</h3>
             </div>
           </div>
 

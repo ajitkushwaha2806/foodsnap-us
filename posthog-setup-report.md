@@ -1,7 +1,7 @@
 <wizard-report>
 # PostHog post-wizard report
 
-The wizard has completed a deep integration of PostHog analytics into the MagicScale FSSAI licensing platform. Client-side tracking is initialised via `instrumentation-client.js` (the recommended approach for Next.js 15.3+), with a reverse proxy configured in `next.config.mjs` so analytics traffic routes through the app domain and bypasses ad blockers. A server-side PostHog client (`src/lib/posthog-server.js`) is used in two API routes to capture critical business events that cannot be tracked client-side: registration creation and payment webhook outcomes.
+The wizard has completed a deep integration of PostHog analytics into the Foodsnap FSSAI licensing platform. Client-side tracking is initialised via `instrumentation-client.js` (the recommended approach for Next.js 15.3+), with a reverse proxy configured in `next.config.mjs` so analytics traffic routes through the app domain and bypasses ad blockers. A server-side PostHog client (`src/lib/posthog-server.js`) is used in two API routes to capture critical business events that cannot be tracked client-side: registration creation and payment webhook outcomes.
 
 | Event | Description | File |
 |---|---|---|

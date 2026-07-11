@@ -11,11 +11,11 @@ export default function Pricing() {
   const plan = useAppConfigStore((state) => state.plan);
 
   const features = [
-    "1-Year FSSAI Registration",
-    "Government Application Fees Included",
-    "Dedicated Account Manager",
-    "Free Consultancy on Compliance",
-    "Updates on Application Status",
+    "100 High-Resolution Photos",
+    "Instant Download Access",
+    "Approved for Major Delivery Apps",
+    "Royalty-Free Usage",
+    "US Cuisine Specific",
     "Secure & Encrypted Processing",
   ];
 
@@ -33,7 +33,7 @@ export default function Pricing() {
               </Highlighter>
             </>
           }
-          description="Get your FSSAI license processed with our comprehensive, all-inclusive package."
+          description="Get instant access to premium food photos for your delivery profiles."
         />
       </div>
     }>
@@ -48,14 +48,14 @@ export default function Pricing() {
 
             <div className="flex flex-col md:flex-row">
               <div className="flex-1 p-8 sm:p-12 border-b md:border-b-0 md:border-r border-zinc-100 flex flex-col justify-center bg-zinc-50/50">
-                <h3 className="text-2xl font-extrabold text-zinc-900 mb-2">{plan?.title || "FSSAI Registration"}</h3>
-                <p className="text-zinc-500 mb-6 font-medium">One-time payment for a 1-Year License</p>
+                <h3 className="text-2xl font-extrabold text-zinc-900 mb-2">100 Photos Bundle</h3>
+                <p className="text-zinc-500 mb-6 font-medium">One-time payment for 100 high-quality images</p>
 
                 <div className="flex items-end gap-3 mb-8">
-                  <span className="text-6xl font-black text-zinc-900 tracking-tight">₹{plan?.price || 999}</span>
+                  <span className="text-6xl font-black text-zinc-900 tracking-tight">$10</span>
                   <div className="flex flex-col pb-1.5">
-                    <span className="text-sm font-bold text-red-500 uppercase tracking-wider mb-0.5">Save ₹2000</span>
-                    <span className="text-lg text-zinc-400 font-medium line-through decoration-zinc-300">₹2,999</span>
+                    <span className="text-sm font-bold text-red-500 uppercase tracking-wider mb-0.5">Save $40</span>
+                    <span className="text-lg text-zinc-400 font-medium line-through decoration-zinc-300">$50</span>
                   </div>
                 </div>
 

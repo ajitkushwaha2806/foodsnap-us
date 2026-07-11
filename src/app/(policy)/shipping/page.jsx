@@ -2,17 +2,15 @@ import Template from "@/components/global/template";
 import { Headset, ShieldCheck, Trash2 } from "lucide-react";
 
 export const metadata = {
-  title: "Shipping & Digital Delivery Policy | MagicScale",
+  title: "Shipping & Digital Delivery Policy | Foodsnap",
   description:
-    "Learn how MagicScale delivers your FSSAI registration certificates, compliance documents, and consultation services.",
+    "Learn how Foodsnap delivers your premium food image bundles and digital assets.",
   keywords: [
-    "MagicScale",
+    "Foodsnap",
     "Digital Delivery",
     "Service Access",
-    "FSSAI Certificate Delivery",
-    "consultation",
-    "License Delivery",
-    "FSSAI Licensing Service",
+    "Image Download",
+    "Digital Goods Shipping",
   ],
   robots: "index, follow",
 };
@@ -21,90 +19,82 @@ const cardData = [
   {
     title: "100% Digital Delivery",
     description:
-      "All FSSAI registration services and consultations are delivered online.",
+      "All Foodsnap image bundles are delivered online.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        MagicScale provides FSSAI registration services entirely through
+        Foodsnap provides premium image assets entirely through
         digital channels. We do not sell or ship any physical products. <br />{" "}
         <br />
         Our offerings include:{" "}
         <ul className="list-disc pl-5 mt-2">
           {" "}
-          <li>FSSAI registration processing and submission</li>{" "}
-          <li>Digital delivery of your official FSSAI Certificate</li>{" "}
-          <li>Compliance consultation sessions (via call/video)</li>{" "}
-          <li>Digital hygiene templates and business resources</li>{" "}
-          <li>Application tracking and updates</li>{" "}
+          <li>Instant access to high-resolution food photography</li>{" "}
+          <li>Digital delivery of image bundles via email or secure link</li>{" "}
+          <li>Online account access to past purchases</li>{" "}
         </ul>{" "}
         <br />
-        No physical shipping, courier services, or logistics are involved. You will 
-        receive your final certificate directly via email or WhatsApp once approved 
-        by the government.
+        No physical shipping, courier services, or logistics are involved. You will
+        receive your digital files directly via email or on your account dashboard.
       </>
     ),
   },
   {
-    title: "Application Tracking & Timelines",
-    description: "Updates and certificates are delivered electronically.",
+    title: "Instant Access & Timelines",
+    description: "Downloads are available immediately after payment.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        After successful payment and submission of your KYC documents, you will 
-        receive an application reference number or submission proof via email. <br /> <br />
-        Delivery timelines for the final FSSAI license depend entirely on the 
-        government department's processing speed. Most standard registrations are 
-        processed within 7 to 30 working days. <br /> <br />
-        Once approved by the authorities, the soft copy of your FSSAI certificate 
-        will be delivered to your registered email address immediately.
+        After successful payment, you will immediately be redirected to a download 
+        page or dashboard where you can access your purchased Foodsnap Pro Library. <br /> <br />
+        Additionally, a confirmation email containing backup download links will be 
+        sent to your registered email address within a few minutes of your transaction. <br /> <br />
+        There are no shipping delays or transit times to worry about.
       </>
     ),
   },
   {
     title: "Communication & Access Responsibility",
     description:
-      "Applicants are responsible for providing accurate contact details.",
+      "Purchasers are responsible for providing accurate contact details.",
     icon: <Trash2 className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        Applicants are responsible for providing an accurate email address and 
-        phone number during registration to ensure smooth delivery of updates 
-        and the final certificate. <br /> <br />
-        Failure to provide necessary documents for processing, or missing a 
-        scheduled compliance consultation call, does not constitute a delivery 
-        failure on our part.
+        Customers are responsible for providing an accurate email address and
+        phone number during checkout to ensure smooth delivery of download links 
+        and purchase receipts. <br /> <br />
+        If you provide an incorrect email address and cannot access your files, 
+        please contact our support team to verify your identity and update your details.
       </>
     ),
   },
 ];
 
 const contactData = {
-  title: "Need Help With Your Application?",
+  title: "Need Help With Your Download?",
   description:
-    "Our support team is available to assist with document delivery questions.",
+    "Our support team is available to assist with digital delivery questions.",
   content: (
     <div>
       {" "}
       <p className="mb-4">
-        If you have submitted all your documents but have not received an 
-        application update, or if your license has been approved but you haven't 
-        received the digital copy, please contact our support team.{" "}
+        If you have successfully completed a payment but have not received an
+        email with your download links, or if you are having trouble accessing 
+        your files on the dashboard, please contact our support team.{" "}
       </p>
       <p>
         Support Email:{" "}
         <a
-          href="mailto:support@magicscale.in"
+          href="mailto:support@Foodsnap.in"
           className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-2"
         >
-          support@magicscale.in
+          support@Foodsnap.in
         </a>
       </p>
       <p className="mt-3">
-        MagicScale
+        Foodsnap
         <br />
-        New Delhi, India
-        <br />
-        FSSAI Registration & Compliance Services
+        Premium Food Image Library
       </p>
     </div>
   ),
@@ -120,9 +110,9 @@ const page = () => {
           Policy{" "}
         </div>
       }
-      description="Learn how application updates, consultation programs, and final FSSAI certificates are delivered by MagicScale."
-      ctaDescription="All MagicScale services are delivered digitally. After government approval, your official FSSAI certificate will be sent directly to your registered email address."
-      ctaLink="mailto:support@magicscale.in"
+      description="Learn how Foodsnap instantly delivers your digital image bundles."
+      ctaDescription="All Foodsnap products are delivered digitally. Immediately after payment, your download links will be available on-screen and sent to your registered email address."
+      ctaLink="mailto:support@Foodsnap.in"
       ctaButton={
         <span className="flex items-center gap-2">
           {" "}

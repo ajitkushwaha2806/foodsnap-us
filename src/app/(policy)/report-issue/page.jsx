@@ -2,44 +2,42 @@ import Template from "@/components/global/template";
 import { Bug, Headset, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
-  title: "Support & Issue Reporting | MagicScale",
+  title: "Support & Issue Reporting | Foodsnap",
   description:
-    "Need help with your FSSAI application, document uploads, or payments? Contact the MagicScale support team.",
+    "Need help with your image downloads, account access, or payments? Contact the Foodsnap support team.",
   keywords: [
-    "MagicScale Support",
+    "Foodsnap Support",
     "Service Support",
-    "FSSAI Application Support",
-    "consultation Support",
+    "Image Download Help",
+    "Account Support",
     "Payment Issue",
-    "Document Upload Help",
   ],
   openGraph: {
-    title: "Support & Issue Reporting | MagicScale",
+    title: "Support & Issue Reporting | Foodsnap",
     description:
-      "Need help with your FSSAI application processing, document uploads, or payments? Contact our support team.",
-    url: "https://magicscale.in/report-issue",
-    siteName: "MagicScale",
-    locale: "en_IN",
+      "Need help with your Foodsnap Pro account, image downloads, or payments? Contact our support team.",
+    url: "https://Foodsnap.in/report-issue",
+    siteName: "Foodsnap",
+    locale: "en_US",
     type: "website",
   },
 };
 
 const cardData = [
   {
-    title: "Application Issues",
-    description: "Unable to complete your FSSAI registration process?",
+    title: "Download & Access Issues",
+    description: "Unable to download your premium image bundles?",
     icon: <Bug className="w-6 h-6 text-red-500" />,
     content: (
       <>
-        If you're unable to complete your FSSAI registration form, upload KYC 
-        documents, or check the status of your application, our team is ready to
-        help. <br /> <br />
+        If you're unable to download images, encountering broken links, or having 
+        trouble logging into your Foodsnap Pro account, our team is ready to help. <br /> <br />
         Please email your registered phone number, email address, and issue details to{" "}
         <a
-          href="mailto:support@magicscale.in"
+          href="mailto:support@Foodsnap.in"
           className="text-blue-600 dark:text-blue-400 hover:underline"
         >
-          support@magicscale.in
+          support@Foodsnap.in
         </a>
         .
       </>
@@ -51,7 +49,7 @@ const cardData = [
     icon: <Mail className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        If your payment was successful but you did not receive a confirmation receipt, 
+        If your payment was successful but you did not receive a confirmation receipt,
         or if you believe a billing error occurred, please contact our support team with
         your transaction details. <br /> <br />
         We will investigate and resolve legitimate billing issues as quickly as
@@ -60,16 +58,15 @@ const cardData = [
     ),
   },
   {
-    title: "Consultation Support",
-    description: "Need assistance regarding consultation or legal guidance?",
+    title: "Library Requests",
+    description: "Looking for specific images or cuisines?",
     icon: <MapPin className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        For questions regarding consultation calls, documentation requirements,
-        or specific compliance queries for your food business, contact our
-        expert team. <br /> <br />
-        MagicScale operates online and serves food entrepreneurs
-        across India.
+        Can't find the perfect image for your restaurant menu? Send us a request! 
+        We are constantly updating our library based on customer feedback to ensure 
+        we have the best selection for all types of food businesses. <br /> <br />
+        Foodsnap serves cloud kitchens and restaurants worldwide.
       </>
     ),
   },
@@ -78,27 +75,25 @@ const cardData = [
 const contactData = {
   title: "Need Help? We're Here For You",
   description:
-    "Whether it's FSSAI registration, payment concerns, or document uploads, our team is ready to assist.",
+    "Whether it's account access, payment concerns, or image requests, our team is ready to assist.",
   content: (
     <div>
       {" "}
       <p className="mb-4">
-        If you're facing any issue related to our FSSAI registration services, 
-        consultation calls, document uploads, or payments, please reach out
-        with complete details so we can assist you efficiently.{" "}
+        If you're facing any issue related to our image library, downloads, 
+        or payments, please reach out with complete details so we can assist 
+        you efficiently.{" "}
       </p>
       <p>
         📧 Support Email:{" "}
         <a
-          href="mailto:support@magicscale.in"
+          href="mailto:support@Foodsnap.in"
           className="text-blue-600 dark:text-blue-400 hover:underline"
         >
-          support@magicscale.in
+          support@Foodsnap.in
         </a>
         <br />
-        📍 Location: New Delhi, India
-        <br />
-        🛡️ MagicScale – FSSAI Licensing & Compliance Support
+        🛡️ Foodsnap – Premium Food Image Library
       </p>
     </div>
   ),
@@ -114,8 +109,8 @@ const page = () => {
           Contact Our Support Team{" "}
         </div>
       }
-      description="Facing an issue with FSSAI application processing, document uploads, or payments? Let us know and we'll help resolve it."
-      ctaDescription="Our team is committed to providing a smooth licensing experience. If you encounter any technical or processing issues, we're just an email away."
+      description="Facing an issue with your account, downloads, or payments? Let us know and we'll help resolve it."
+      ctaDescription="Our team is committed to providing a smooth experience. If you encounter any technical or billing issues, we're just an email away."
       ctaLink="/contact"
       ctaButton={
         <span className="flex items-center gap-2">
